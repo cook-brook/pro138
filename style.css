@@ -1,0 +1,21 @@
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h1{
+    display: inline;
+    font-size: 25px;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+    position: bottom;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
