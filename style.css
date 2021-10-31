@@ -19,3 +19,16 @@ canvas
       border-radius: 20px;
       box-shadow:  5px 5px 5px white;
   }
+  .modal-dialog{
+    width: 90%;
+ 
+  }
+  .copywright_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
