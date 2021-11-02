@@ -20,15 +20,15 @@
                 <h1 >AI PING PONG GAME </h1>
                 <button class="btn btn-warning"  data-toggle="modal" data-target="#myModal">Instruction</button>
             </div>
-            <br>
-            <br>
-            <button class="btn btn-success">Start Game</button>
             <br><br>
-            <button class="btn btn-default"></button>
+            <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+            <br><br>
+            <h3 id="status" class="btn btn-default"></h3>
             <br><br>
             <div id="canvas"></div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br> <br><br><br><br><br><br><br><br><br>
-            <button class="btn btn-danger">Restart</button>
+            <br><br>
+            <button onclick="restart()" class="btn btn-danger" id="restart">Restart</button>
+            <br><br>
 
             <div id="myModal" class="modal fade">
                 <div class="modal-dialog">
