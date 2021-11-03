@@ -1,3 +1,6 @@
+rightWristX="";
+rightWristY="";
+score="";
 function setup(){
   var canvas =  createCanvas(700,600);
   canvas.parent('canvas');
@@ -25,4 +28,14 @@ function setup(){
       console.log(scoreRightWrist);
     }
   }
+  function draw(){
+    if(score > 0.2)
+    {
+      fill("red");
+      stroke("red");
+      circle(rightWristX, rightWristY, 30);
+    }
+
+  }
+
   
